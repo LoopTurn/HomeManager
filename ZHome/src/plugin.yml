@@ -1,0 +1,19 @@
+main: loopturn.zhome.core.Main
+name: ZHome
+version: 0.1
+description: Gives people homes
+author: LoopTurn
+
+commands:
+   sethome:
+      description: sethome
+   home:
+      description: go home
+      
+permissions:
+   zhome.sethome:
+      description: sethome
+      default: op
+   zhome.home:
+      description: go home
+      default: op
